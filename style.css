@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+header {
+  position: relative;
+  background-color: #f8d7e9;
+}
+
+main {
+  width: 100%;
+  padding: 19rem;
+  background-color: rgb(6, 230, 255);
+}
+
+input {
+  margin: 2rem;
+}
+
+.hexadezimal-value {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: xx-large;
+  margin: 0;
+}
+
+.red {
+  accent-color: red;
+}
+
+.green {
+  accent-color: green;
+}
+
+.blue {
+  accent-color: blue;
+}
