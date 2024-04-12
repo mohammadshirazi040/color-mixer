@@ -3,26 +3,29 @@
 }
 
 header {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   background-color: #f8d7e9;
+  height: 10vh;
+}
+
+input {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 main {
   width: 100%;
-  padding: 19rem;
+  height: 90vh;
   background-color: rgb(6, 230, 255);
 }
 
-input {
-  margin: 2rem;
-}
-
 .hexadezimal-value {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: xx-large;
-  margin: 0;
+  font-size: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .red {
